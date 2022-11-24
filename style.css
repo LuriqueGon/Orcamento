@@ -1,0 +1,41 @@
+*{
+    outline: none;
+}
+.modal{
+    display: none;
+}
+body.ActionModal .modal{
+    display: block;
+}
+.valorTotal{
+    font-size: 1.35rem;
+    font-weight: normal;
+    border: 1px solid rgba(85, 85, 85, 0.589);
+    width: 17rem;
+    text-align: center;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.432);
+    color: white;
+    text-shadow: .1rem .1rem .2rem black;
+}
+    /* .valorTotal{
+        font-size: 1.35rem;
+        font-weight: normal;
+        border: 1px solid rgba(85, 85, 85, 0.589);
+        width: 25rem;
+        text-align: center;
+        position: fixed;
+        top: 25%;
+        left: -13%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.432);
+        color: white;
+        text-shadow: 0.1rem 0.1rem 0.2rem black;
+        letter-spacing: .3rem;
+        transform: rotate(90deg);
+    } */
